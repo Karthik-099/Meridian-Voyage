@@ -68,6 +68,6 @@ Before running the application, ensure you have the following installed:
     volumes:
     postgres_data:
 
-3.Start the application:
+3.Start the application: .
 ```bash ... ```
-   docker-compose up .
+    docker-compose up .
