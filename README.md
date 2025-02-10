@@ -28,7 +28,8 @@ Before running the application, ensure you have the following installed:
    cd Meridian-Voyage
 2.Build and start the application using Docker Compose:
   
-  docker-compose up --build
+  docker-compose up --build  .
+  
 3.Access the application.
     Frontend: http://localhost:3000   .
     Backend API: http://localhost:5000/data   .
