@@ -27,7 +27,7 @@ Before running the application, ensure you have the following installed:
    git clone https://github.com/Karthik-099/Meridian-Voyage.git
    cd Meridian-Voyage
 2.Build and start the application using Docker Compose:
-  ```bash ... ```
+  
         docker-compose up --build  .
   
 3.Access the application.
@@ -69,5 +69,5 @@ Before running the application, ensure you have the following installed:
     postgres_data:
 
 3.Start the application: .
-```bash ... ```
+
     docker-compose up .
