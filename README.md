@@ -27,8 +27,8 @@ Before running the application, ensure you have the following installed:
    git clone https://github.com/Karthik-099/Meridian-Voyage.git
    cd Meridian-Voyage
 2.Build and start the application using Docker Compose:
-  
-  docker-compose up --build  .
+  ```bash ... ```
+        docker-compose up --build  .
   
 3.Access the application.
     Frontend: http://localhost:3000   .
@@ -39,6 +39,7 @@ Before running the application, ensure you have the following installed:
 1.Pull the images:
    docker pull karthik75/frontend:latest  .
    docker pull karthik75/backend:latest  .
+   
 2.Update the docker-compose.yml file to use the pulled images
   
     services:
@@ -68,4 +69,5 @@ Before running the application, ensure you have the following installed:
     postgres_data:
 
 3.Start the application:
+```bash ... ```
    docker-compose up .
